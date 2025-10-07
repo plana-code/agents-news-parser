@@ -18,12 +18,14 @@ Python, Desktop UI, SQLite, OpenRouter API
 
 ### Requirements
 - Choose the best library for scraping with user emulation (anti-bot bypass)
-- Use OpenRouter API with token from `OPENROUTER_API_KEY`
+- Use OpenRouter API with token from `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`
 - Ensure reliability and resilience to failures and input data
 
 ## Testing
 - Unit tests
 - E2E without mocks: URL → scraping → LLM → DB → CSV
+- Use real token for `openrouter.ai` : `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`
+- Use real news site: `https://www.gazeta.ru/` 
 
 ## Infrastructure
 Dockerfile, docker-compose.yml, README.md
