@@ -1,0 +1,29 @@
+# Web Scraping - Playwright with stealth mode
+playwright==1.41.0
+playwright-stealth==1.0.4
+
+# UI Framework - Gradio (chosen for Docker compatibility)
+gradio==4.16.0
+
+# Database - SQLite is built-in, but adding utilities
+# (sqlite3 is part of Python standard library)
+
+# LLM Integration
+requests==2.31.0
+beautifulsoup4==4.12.3
+
+# CSV Export
+pandas==2.2.0
+
+# Configuration
+python-dotenv==1.0.1
+
+# Testing
+pytest==8.0.0
+pytest-cov==4.1.0
+pytest-asyncio==0.21.1
+pytest-mock==3.12.0
+
+# Development utilities
+black==24.1.1
+flake8==7.0.0

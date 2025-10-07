@@ -1,0 +1,12 @@
+playwright>=1.45.0
+requests>=2.31.0
+tenacity>=8.2.3
+beautifulsoup4>=4.12.2
+python-dotenv>=1.0.1
+pydantic>=2.8.2
+
+# Dev / Test
+pytest>=8.2.0
+pytest-cov>=5.0.0
+black>=24.8.0
+ruff>=0.6.2
